@@ -26,8 +26,7 @@ public class UserModel {
     public UserModel() {
     }
 
-    public UserModel(Long id, String name, String email) {
-        this.id = id;
+    public UserModel(String name, String email) {
         this.name = name;
         this.email = email;
     }
