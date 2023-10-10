@@ -1,8 +1,13 @@
 package com.dio.live.coding.springboot.dto;
 
+import javax.validation.constraints.NotEmpty;
+
 public class UserModelDTO {
     
+
+    @NotEmpty(message = "Name is required")
     private String name;
+    @NotEmpty(message = "E-mail is required")
     private String email;
 
 
